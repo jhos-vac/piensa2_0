@@ -4,7 +4,7 @@ import { ConsumidoresService } from './consumidores.service';
 import { CreateConsumidoreDto } from './dto/create-consumidore.dto';
 import { UpdateConsumidoreDto } from './dto/update-consumidore.dto';
 
-@Controller('consumidores')
+@Controller('clients')
 @ApiTags('client')
 export class ConsumidoresController {
   constructor(private readonly consumidoresService: ConsumidoresService) {}
