@@ -53,7 +53,7 @@ model order {
   quantity_product String
   total            String
   time_order       DateTime? @default(now())
-  time_exit       DateTime? 
+  time_exit        DateTime? @default(now())
   createAt         DateTime @default(now())
   updatedAt        DateTime @updatedAt
 }
