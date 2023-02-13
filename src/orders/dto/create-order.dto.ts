@@ -10,7 +10,7 @@ export class CreateOrderDto {
     @ApiProperty()
     total: string;
     @ApiProperty()
-    time_order?: Date | string;
+    time_order: Date
     @ApiProperty()
-    time_exit?: Date | string;
+    time_exit: Date 
 }
